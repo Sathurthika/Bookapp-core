@@ -27,7 +27,7 @@ public class BookDAO {
 			book.setName(rs.getString("name"));
 			book.setPrice(rs.getFloat("price"));
 			return book;
-		});
+		}); 
 
 	}
 

@@ -3,7 +3,7 @@ package com.sathurthika.bookapp.util;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-public class ConnectionUtil {
+public class ConnectionUtil { 
 
 	public static BasicDataSource dataSource() {
 

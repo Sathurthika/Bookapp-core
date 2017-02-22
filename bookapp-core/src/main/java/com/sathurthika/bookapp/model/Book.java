@@ -2,7 +2,7 @@ package com.sathurthika.bookapp.model;
 
 public class Book {
 	private Integer id;
-	private String name;
+	private String name; 
 	private Float price;
 
 	public Integer getId() {
