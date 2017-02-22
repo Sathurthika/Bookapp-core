@@ -12,7 +12,7 @@ public class BookDAOTest {
 	public void testSave() {
 		Book book = new Book();
 		book.setName("Java");
-		book.setPrice(300f);  
+		book.setPrice(300f);   
 
 		BookDAO dao = new BookDAO();
 		dao.save(book);

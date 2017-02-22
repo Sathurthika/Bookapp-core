@@ -16,7 +16,7 @@ public class BookDAO {
 		Object[] args = { book.getName(), book.getPrice() };
 		int rows = jdbcTemplate.update(sql, args);
 		System.out.println("No. of rows inserted: " + rows);
-	}
+	} 
 
 	public List<Book> findAll() {
 

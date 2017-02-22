@@ -11,7 +11,7 @@ public class BookTest {
 	public void testGetId() {
 		System.out.println(book.getId());
 	}
- 
+  
 	@Test
 	public void testSetId() {
 		book.setId(1);
